@@ -1,0 +1,8 @@
+extends base-email
+block content
+    p Hi #{firstName}
+    p Welcome to courses of Wizcove IT, we're glad to have you 🎉🙏
+    p To verify your email, click on this link:
+    a.btn(href=`${verifyLink}`) Verify Email
+    p If you did not create an account, then ignore this email.
+    p - Wizcove IT,
